@@ -42,11 +42,11 @@ public class Profesor {
     }
     
     
-    public String asignarCalificacion(Estudiante estudiante, short cveAsig, String nomAsig, float promFinal) {
-        Calificacion calificacion = new Calificacion(cveAsig, nomAsig, promFinal);
+    public String asignarCalificacion(Estudiante estudiante, Calificacion cal) {
+        Calificacion calificacion = new Calificacion();
         estudiante.agregarcalificacion(calificacion);
         return "El maestro ==>" + nomProfesor + " ha asignado la calificacion de= " + calificacion.getPromFinal();
         
     }
-    
+
 }
