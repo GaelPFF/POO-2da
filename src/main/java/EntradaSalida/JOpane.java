@@ -156,6 +156,42 @@ public class JOpane {
        		    JOptionPane.QUESTION_MESSAGE, null, valores, valores[0]);
        return (res);
    }
+        
+        public static String plato1() {
+		 String valores[]= {"Sopa de verduras","Ensalada cesar","Crema de champiñones"};
+       String res = (String) JOptionPane.showInputDialog(null, 
+    		   "Selecciona primer plato: ",
+    		   "Pedido", 
+       		    JOptionPane.QUESTION_MESSAGE, null, valores, valores[0]);
+       return (res);
+   }
+        
+        public static String plato2() {
+		 String valores[]= {"Pollo al horno","Carne asada","Pescado empanizado"};
+       String res = (String) JOptionPane.showInputDialog(null, 
+    		   "Selecciona segundo plato: ",
+    		   "Pedido", 
+       		    JOptionPane.QUESTION_MESSAGE, null, valores, valores[0]);
+       return (res);
+   }
+        
+        public static String bebida() {
+		 String valores[]= {"Agua mineral","Refresco","Jugo natural"};
+       String res = (String) JOptionPane.showInputDialog(null, 
+    		   "Selecciona bebida: ",
+    		   "Pedido", 
+       		    JOptionPane.QUESTION_MESSAGE, null, valores, valores[0]);
+       return (res);
+   }
+        
+        public static String postre() {
+		 String valores[]= {"Flan","Pastel de chocolate","Helado"};
+       String res = (String) JOptionPane.showInputDialog(null, 
+    		   "Selecciona postre: ",
+    		   "Pedido", 
+       		    JOptionPane.QUESTION_MESSAGE, null, valores, valores[0]);
+       return (res);
+   }
 	
 	
 	public static String opcionesListaDesplegable(String menu) {
