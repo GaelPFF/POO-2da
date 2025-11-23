@@ -229,5 +229,9 @@ public class JOpane {
             JOptionPane.showMessageDialog(null,unir,"Reporte de salida:",
                     JOptionPane.INFORMATION_MESSAGE);
         }
+        
+        public static void verDatos(String msje){
+            JOptionPane.showMessageDialog(null,msje,"Reporte",JOptionPane.INFORMATION_MESSAGE);
+        }
 	
 }
